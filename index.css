@@ -1,3 +1,30 @@
+header{
+color: black;
+}
+header nav a:hover{
+color: red;
+}
+imput{
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+}
+.search-icon{
+    margin-left: -2.3rem;
+}
+.notification-icon{
+    font-size: 2rem;
+}
+.user-avatar{
+    width: 2.5rem;
+    border-radius: 100%;
+}
+.access-menu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+}
 h1{
     color: red;
 }
+
