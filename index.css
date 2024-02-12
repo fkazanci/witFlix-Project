@@ -1,22 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: black;
+}
+header h1, header div{
+width: 30%;
+}
+header nav a{
+margin: 0 0.5rem;
+text-decoration: none;
 color: black;
 }
 header nav a:hover{
 color: red;
-}
-imput{
-    padding: 0.5rem;
-    padding-right: 1.5rem;
+    }
+input{
+padding: 0.5rem;
+padding-right: 1.5rem;
 }
 .search-icon{
-    margin-left: -2.3rem;
+margin-left: -2.3rem;
 }
 .notification-icon{
-    font-size: 2rem;
+font-size: 2rem;
 }
 .user-avatar{
-    width: 2.5rem;
-    border-radius: 100%;
+width: 2.5rem;
+border-radius: 100%;
 }
 .access-menu{
     display: flex;
