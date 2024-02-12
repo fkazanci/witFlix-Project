@@ -53,5 +53,28 @@ main{
 .text-red{
     color: red;
 }
-
+h2{
+    font-size: 2rem;
+}
+.info-section i {
+color: orangered;
+}
+.btn{
+    width: 12%;
+    border-radius: 10px;
+    padding: 10px 30px;
+    display: inline-block;
+    background: orangered;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+.play-section{
+    display: flex;
+    align-items: center;
+}
+.play-icon{
+    font-size: 2rem;
+    margin-left: 2.3rem;
+}
 
