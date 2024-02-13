@@ -71,7 +71,7 @@ color: orangered;
 }
 .play-section{
     display: flex;
-    align-items: center;
+    justify-items: center;
 }
 .play-icon{
     font-size: 2rem;
