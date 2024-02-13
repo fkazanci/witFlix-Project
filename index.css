@@ -49,32 +49,40 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
 }
 .text-red{
     color: red;
 }
-h2{
-    font-size: 2rem;
+.age-restriction{
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 4px;
+    margin: 0 1rem;
+}
+.text-bold{
+    font-weight: bold;
+}
+main h2{
+    font-size: 3rem;
+    margin: 1.5rem 0;
 }
 .info-section i {
 color: orangered;
 }
 .btn{
-    width: 12%;
-    border-radius: 10px;
-    padding: 10px 30px;
-    display: inline-block;
     background: orangered;
     color: white;
-    text-align: center;
-    font-size: 2rem;
+    display: inline-block;
 }
-.play-section{
-    display: flex;
-    justify-items: center;
+.btn-xl{
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.7rem;
+    margin: 1rem 0;
 }
-.play-icon{
-    font-size: 2rem;
-    margin-left: 2.3rem;
+.details-container{
+    margin: 1rem 0;
 }
+
 
