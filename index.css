@@ -10,12 +10,12 @@ color: black;
 header h1, header div{
 width: 30%;
 }
-header nav a{
+nav a{
 margin: 0 0.5rem;
 text-decoration: none;
 color: black;
 }
-header nav a:hover{
+nav a:hover{
 color: red;
     }
 input{
@@ -98,6 +98,7 @@ color: orangered;
 
 section{
     margin: 1rem;
+    margin-bottom: 3rem;
 }
 .section-content, .section-header{
     display: flex;
@@ -128,4 +129,48 @@ section{
 }
 .card .age-restriction{
     margin-left: 0;
+}
+
+/*footer bölümü*/
+
+footer{
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+align-items: flex-start;
+margin: 1rem;
+}
+footer nav{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+footer p:nth-child(n+1){
+    margin-top: 0;
+}
+footer img{
+    height: 3rem;
+    margin-top: -0.5rem;
+}
+footer div:first-child{
+    flex-basis: 60%;
+}
+footer div{
+    flex-basis: 20%;
+}
+footer nav a:first-child{
+    margin-left: 0;
+}
+@media(max-width:800px){
+    .description{
+        width: auto;
+    }
+    header{
+        flex-wrap: wrap;
+    }
+    header nav {
+        order: 3;
+        width: 100%;
+        text-align: center;
+    }
 }
