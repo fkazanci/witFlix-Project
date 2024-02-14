@@ -174,3 +174,13 @@ footer nav a:first-child{
         text-align: center;
     }
 }
+@media(max-width:500px){
+
+    footer{
+        flex-wrap: wrap;
+    }
+    footer {
+    display: flex;
+   flex-direction: column-reverse; 
+}
+}
